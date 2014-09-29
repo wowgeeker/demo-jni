@@ -28,7 +28,7 @@ implement add1(int) in jni-demo.c  and compile:
 
 ### final
 
-    java -Djava.library.path JNIDemo 1
+    java -Djava.library.path=. JNIDemo 1
 
 console then shows :
 
